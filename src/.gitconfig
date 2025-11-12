@@ -1,13 +1,43 @@
 [user]
 	name = João Victor
-	email = joaovictorpinheiro2007@gmail.com
+  email = joaovictorpinheiro2007@gmail.com
+
 [init]
-	defaultBranch = master
+  defaultBranch = master
+
 [advice]
-	detachedHead = false
+  detachedHead = false
+
 [core]
 	excludesFile = ~/.gitignore_global
 	editor = vim
+  pager = delta
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  features = side-by-side line-numbers navigate dark decorations
+  syntax-theme = Dracula
+  plus-style = syntax "#003800"
+  minus-style = syntax "#3f0001"
+  true-color = always
+
+[delta "decorations"]
+  commit-decoration-style = bold yellow box ul
+  file-style = bold yellow ul
+  file-decoration-style = none
+  hunk-header-decoration-style = cyan ul
+
+[delta "line-numbers"]
+  line-numbers-left-style = cyan
+  line-numbers-right-style = cyan
+  line-numbers-minus-style = 124
+  line-numbers-plus-style = 28
+
+[merge]
+  conflicStyle = zdiff3
+
 [alias]
 	a = add
 	ps = push
@@ -16,7 +46,8 @@
 	c = commit -m
 	s = status
 	co = checkout
-	b = branch
+	br = branch
+	bl = blame
 	rs = reset
 	rb = rebase
 	rl = reflog
