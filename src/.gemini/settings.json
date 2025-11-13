@@ -1,7 +1,17 @@
 {
-  "ideMode": true,
-  "preferredEditor": "vscode",
-  "selectedAuthType": "oauth-personal",
-  "theme": "Default",
-  "hasSeenIdeIntegrationNudge": true
+  "ide": {
+    "hasSeenNudge": true,
+    "enabled": true
+  },
+  "general": {
+    "preferredEditor": "vscode"
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "theme": "Default"
+  }
 }

@@ -119,7 +119,7 @@
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
 	"[python]": {
-		"editor.defaultFormatter": "ms-python.black-formatter"
+		"editor.defaultFormatter": "charliermarsh.ruff"
 	},
 	"[yaml]": {
 		"editor.tabSize": 2,
@@ -156,5 +156,6 @@
 		"editor.defaultFormatter": "rust-lang.rust-analyzer"
 	},
 	"workbench.activityBar.location": "hidden",
-	"workbench.editor.empty.hint": "hidden"
+	"workbench.editor.empty.hint": "hidden",
+	"python.defaultInterpreterPath": "/bin/python"
 }

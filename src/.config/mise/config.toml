@@ -1,0 +1,6 @@
+[tools]
+java = "25"
+python = "latest"
+ruby = "latest"
+rust = "latest"
+usage = "latest"

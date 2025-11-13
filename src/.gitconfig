@@ -47,6 +47,7 @@
 	s = status
 	co = checkout
 	br = branch
+  brr = branch --remote
 	bl = blame
 	rs = reset
 	rb = rebase
@@ -58,7 +59,6 @@
   cl = clean
 	ca = commit --amend -m
 	ds = diff --staged
-	br = branch --remote
 	aa = add --all
 	sh = show
 	t = tag
