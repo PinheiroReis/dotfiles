@@ -1,6 +1,8 @@
 [tools]
+clang = "21.1.5"
 java = "25"
-python = "latest"
-ruby = "latest"
-rust = "latest"
+perl = "5.42.0.0"
+python = "3.14.0"
+ruby = "3.4.7"
+rust = "1.91.1"
 usage = "latest"

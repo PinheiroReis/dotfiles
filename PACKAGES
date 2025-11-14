@@ -187,7 +187,6 @@ plocate
 plymouth
 pnpm
 polkit-gnome
-postgresql
 python-ipykernel
 python-notify2
 python-pip

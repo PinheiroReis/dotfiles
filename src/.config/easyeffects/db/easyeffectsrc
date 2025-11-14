@@ -10,6 +10,7 @@ visiblePage=pluginsPage
 visiblePlugin=equalizer#0
 
 [Window]
-height=1060
+height=1062
 lastLoadedOutputPreset=Music
-width=958
+visiblePipeWirePage=clientsPage
+width=1920
