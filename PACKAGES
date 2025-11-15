@@ -183,7 +183,6 @@ pipewire-alsa
 pipewire-pulse
 plocate
 plymouth
-pnpm
 polkit-gnome
 python-ipykernel
 python-notify2
