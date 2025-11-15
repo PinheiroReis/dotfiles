@@ -36,7 +36,6 @@ capitaine-cursors
 carapace
 cardinal-lv2
 clamav
-clang
 cloc
 composer
 copyq
@@ -53,7 +52,6 @@ docker
 docker-buildx
 docker-compose
 docker-rootless-extras
-dotnet-sdk
 dpf-plugins-lv2
 dragonfly-reverb-lv2
 drumgizmo-lv2
@@ -277,7 +275,6 @@ ufw
 uget
 unrar
 unzip
-uv
 vaporizer2-lv2
 vim
 virt-manager
