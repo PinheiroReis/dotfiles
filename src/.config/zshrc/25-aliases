@@ -1,0 +1,45 @@
+# -----------------------------------------------------
+# General
+# -----------------------------------------------------
+alias ff='fastfetch'
+alias ls='eza --icons=always'
+alias l='eza -lah --icons=always'
+alias lt='eza --tree --icons=always'
+alias t="trash-put"
+alias tc="rm -rf ~/.local/share/Trash/*"
+alias mdl="yt-dlp -f ba -x --audio-format flac --audio-quality 0"
+alias vdl="yt-dlp -f bestvideo+bestaudio"
+alias cc="clang -Wall -Wextra -Wpedantic -g"
+alias z="zeditor"
+
+# -----------------------------------------------------
+# Git 
+# ----------------------------------------------------- 
+
+alias git='nocorrect git'
+alias g="git"
+
+# -----------------------------------------------------
+# Window Managers
+# -----------------------------------------------------
+
+alias Qtile='startx'
+# Hyprland with Hyprland
+
+# -----------------------------------------------------
+# System
+# -----------------------------------------------------
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+# -----------------------------------------------------
+# Qtile
+# -----------------------------------------------------
+alias res1='xrandr --output DisplayPort-0 --mode 2560x1440 --rate 120'
+alias res2='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 120'
+alias setkb='setxkbmap de;echo "Keyboard set back to de."'
+
+# -----------------------------------------------------
+# Utilities
+# -----------------------------------------------------
+alias sha256sum-dir='rm SHA256SUM && find -type f -exec sha256sum {} \; | sort > SHA256SUM'
+alias sha256sum-dir-check='sha256sum -c SHA256SUM | grep -v " OK"'

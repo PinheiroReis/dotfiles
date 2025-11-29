@@ -1,0 +1,7 @@
+[general]
+# import=["~/.cache/wal/colors-alacritty.toml"]
+import=["~/dotfiles/alacritty/.config/alacritty/themes/catppuccin.toml"]
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
