@@ -9,4 +9,4 @@ vim.opt.autoindent = true
 vim.opt.smarttab = true
 
 vim.opt.spell = true
-vim.opt.spelllang = { "en", "pt_BR" }
+vim.opt.spelllang = { "en", "pt_br" }
